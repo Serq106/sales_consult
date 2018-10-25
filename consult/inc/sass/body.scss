@@ -1,0 +1,37 @@
+@import "variable.scss";
+
+/* BODY */
+body {
+  position: relative;
+  font-size: 16px;
+  margin: 0;
+  font-weight: 400;
+  box-sizing: border-box;
+  font-family: 'Exo2', sans-serif;
+  a{
+    text-decoration: none;
+    &:hover{
+      text-decoration: none;
+    }
+  }
+}
+
+*, :after, :before {
+  box-sizing: inherit;
+}
+
+.container-wrapper {
+  width: 1180px;
+  margin: 0 auto;
+  position: relative;
+  @media all and (max-width: 1139px){
+    width: 100%;
+  }
+}
+
+:focus {
+  outline: none;
+}
+
+
+

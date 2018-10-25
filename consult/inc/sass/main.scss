@@ -1,0 +1,342 @@
+html{
+  margin: 0px;
+}
+.main{
+
+  .container-wrapper{
+    width: 1180px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 15px;
+    @media all and (max-width: 1139px){
+      width: 100%;
+    }
+  }
+  .about{
+    background: url(/inc/img/back-fon.png) 50% no-repeat;
+    height: 1830px;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -45px;
+    .main-menu{
+      ul{
+        display: flex;
+        list-style-type: none;
+        width: auto;
+        flex-wrap: wrap;
+        padding: 0;
+        li{
+          border-bottom: 2px solid #cccccc;
+          padding: 35px 35px 35px 0px;
+          a{
+            color: #999999;
+            font-size: 14px;
+          }
+        }
+      }
+
+    }
+    .content-wrapper{
+      display: flex;
+      .content-right-text{
+        text-align: -webkit-right;
+        font-size: 18px;
+        width: 290px;
+        position: relative;
+      }
+      .content{
+        .title{
+          width: 875px;
+          margin-top: 39px;
+          font-size: 30px;
+          text-transform: uppercase;
+        }
+        .list-advantage{
+          display: flex;
+          margin-top: 40px;
+          width: 885px;
+          flex-wrap: wrap;
+          .item-advantage {
+            color: #1b1c20;
+            width: 295px;
+            height: 320px;
+            border: 1px solid #0076bf;
+            background: #ffffff;
+            .wrapper-advantage {
+              width: 240px;
+              margin: 0 auto;
+              position: relative;
+              height: 240px;
+              display: flex;
+              flex-direction: column;
+              margin-top: 40px;
+              .title-advantage {
+                font-size: 20px;
+                text-transform: uppercase;
+                margin-bottom: 20px;
+              }
+              .content-advantage {
+                font-size: 15px;
+                margin-bottom: 33px;
+              }
+              .img-plus{
+                width: 14px;
+                height: 4px;
+                background: url(/inc/img/minus.png) 50% no-repeat;
+              }
+            }
+            &:hover{
+              background: #0076bf;
+              color: #ffffff;
+              .img-plus{
+                height: 14px;
+                background: url(/inc/img/plus.png) 50% no-repeat;
+              }
+            }
+          }
+        }
+        .item-advantage.item1{
+          .img{
+            width: 39px;
+            height: 42px;
+            margin-bottom: 30px;
+            background: url(/inc/img/advantage1.png) 50% no-repeat;
+          }
+          &:hover{
+            .img {
+              background: url(/inc/img/advantage1-hov.png) 50% no-repeat;
+            }
+          }
+        }
+        .item-advantage.item2{
+          margin-right: 30%;
+          .img{
+            width: 39px;
+            height: 42px;
+            margin-bottom: 30px;
+            background: url(/inc/img/advantage2.png) 50% no-repeat;
+          }
+          &:hover{
+            .img {
+              background: url(/inc/img/advantage2-hov.png) 50% no-repeat;
+            }
+          }
+        }
+      }
+    }
+  }
+  .section{
+    margin-top: 100px;
+    .container.clearfix.text-center{
+      .title{
+        font-size: 30px;
+        color: #ffffff;
+        border-bottom: 2px solid #cceaf7;
+        padding-bottom: 20px;
+        text-transform: uppercase;
+      }
+      .list-about-numbers{
+        display: flex;
+        margin-top: 60px;
+        .item-about-numbers {
+          width: 280px;
+          height: 300px;
+          background: #ffffff;
+          margin: 0 auto;
+          .wrapper-about-numbers{
+            width: 200px;
+            margin: auto;
+            flex-direction: column;
+            align-content: center;
+            justify-content: center;
+            margin-top: 60px;
+            .circle {
+              text-align: center;
+              font-size: 70px;
+            }
+            img{
+              display: flex;
+              margin: auto;
+            }
+            .label-bold {
+              font-size: 20px;
+              font-weight: 600;
+              display: flex;
+              justify-content: center;
+              color: #0076bf;
+              text-transform: uppercase;
+              margin-top: 15px;
+            }
+            span.label {
+              font-size: 20px;
+              display: flex;
+              justify-content: center;
+              color: #0076bf;
+            }
+          }
+        }
+      }
+    }
+  }
+  .paper{
+    background: url(/inc/img/back-paper.png) 50% no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -45px;
+    padding-bottom: 100px;
+    .title-contener{
+      display: flex;
+      border-bottom: 2px solid #cccccc;
+      padding-bottom: 20px;
+      margin-bottom: 60PX;
+      padding-top: 80px;
+      .title{
+        display: flex;
+        font-size: 30px;
+        text-transform: uppercase;
+        width: 100%;
+      }
+      .next{
+        display: flex;
+        width: 50%;
+        justify-content: flex-end;
+        a{
+          color: #d60006;
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+    .content{
+      display: flex;
+      .content-text{
+        .item-text1{
+          font-size: 22px;
+          width: 190px;
+        }
+        .item-text2{
+          margin: 21px 0px;
+          font-size: 16px;
+          color: #999999;
+        }
+        .item-text3{
+          font-size: 18px;
+          margin-right: 20px;
+          line-height: 1.3;
+          margin-bottom: 42px;
+        }
+        .item-text4{
+          color: #0076bf;
+          font-size: 14px;
+          text-transform: uppercase;
+          margin-right: 20px;
+          padding-bottom: 8px;
+          border-bottom: 2px solid #3391cc;
+          font-weight: 600;
+        }
+        .item-text5{
+          margin-top: 30px;
+          a{
+            color: #0076bf;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+  .work-with-us{
+    background: #f2f2f2;
+    position: relative;
+    top: -45px;
+    padding-bottom: 70px;
+    .title-contener{
+      display: flex;
+      padding-top: 100px;
+      padding-bottom: 80px;
+      .slider-title {
+        display: flex;
+        align-items: center;
+        font-size: 30px;
+        text-transform: uppercase;
+        width: 100%;
+      }
+      .center-text {
+        display: flex;
+        #js-prev, #js-next{
+          width: 12px;
+          height: 21px;
+        }
+        #js-prev{
+          margin-right: 36px;
+        }
+      }
+    }
+    /* Основной блок */
+    .owl-wrapper-outer {
+      overflow: hidden;
+    }
+    .owl-item {
+      margin: 0px 5px;
+    }
+    /* 1 квадратик карусели */
+    .carousel-element {
+      text-align: center;
+      font-size: 300%;
+    }
+    #carousel{
+      margin-bottom: 70px;
+    }
+    .sale{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(270deg,#d60006,#890001);
+      width: 346px;
+      height: 60px;
+      margin: 0 auto;
+      font-size: 18px;
+      text-transform: uppercase;
+      color: #ffffff;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  }
+  .baner{
+    background: url(/inc/img/back-baner.png) 50% no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -45px;
+    padding-bottom: 100px;
+    .title {
+      padding-top: 150px;
+      display: flex;
+      font-size: 36px;
+      margin-bottom: 50px;
+      justify-content: center;
+      color: #ffffff;
+    }
+    .btn {
+      font-size: 18px;
+      color: #ffffff;
+      width: 460px;
+      height: 60px;
+      border: 2px solid #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      border-radius: 4px;
+      cursor: pointer;
+      &:hover{
+        background: linear-gradient(270deg,#00aceb,#0076bf);
+      }
+    }
+  }
+
+}
