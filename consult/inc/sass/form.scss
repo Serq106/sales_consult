@@ -10,7 +10,7 @@
 }
 
 .modal-wrapper {
-  background: rgba(0, 0, 0, 0.51);
+  background: rgba(0, 118, 191, 0.9);
   bottom: 0;
   height: 100%;
   left: 0;
@@ -28,47 +28,70 @@
 
 #popup__form {
   position: absolute;
-  left: 50%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   margin-top: 0px;
-  margin-left: -157.5px;
-  width: 315px;
-  height: 430px;
-  text-align: center;
+  width: 700px;
+  @media all and(max-width: 800px) {
+    width: 90%;
+  }
+  height: 855px;
   color: #373842;
   z-index: 9999999;
   .modal-form {
-    padding-top: 30px;
-    font-family: Century Gothic,sans-serif;
+
+    font-family: 'Exo2', sans-serif;
+    .wrapper-form{
+      margin: 0px 40px;
+    }
     input {
-      width: 266px;
-      height: 68px;
-      border-radius: 10px;
-      border: 1px solid #bababa;
+      width: 100%;
+      height: 50px;
+      border-radius: 4px;
+      border: 1px solid #0076bf;
       padding: 6px 10px 6px 15px;
       font-size: 18px;
       display: block;
-      margin: 0 auto 15px;
       color: #717177;
       font-style: italic;
       margin-top: 10px;
-      text-align: center;
-
+    }
+    .texta{
+      width: 100%;
+      height: 150px;
+      border-radius: 4px;
+      border: 1px solid #0076bf;
+      padding: 6px 10px 6px 15px;
+      font-size: 18px;
+      display: block;
+      color: #717177;
+      font-style: italic;
+      margin-top: 10px;
+      margin-bottom: 20px;
     }
     .submit {
-      width: 266px;
-      height: 68px;
-      border-radius: 10px;
-      margin: 0 auto;
-      background-color: #ffffff;
-      text-align: center;
+      width: 100%;
+      top: 27px;
+      cursor: pointer;
+      border: none;
+      border-radius: 3px;
       font-size: 18px;
-      border: 25px solid #ffd17b;
-      transition: 1s linear;
-      color: black;
-      @include transition();
-      &:hover {
-        cursor: pointer;
-        transform: scale(0.95);
+      color: #ffffff;
+      height: 50px;
+      background: linear-gradient(270deg,#d60006,#890001);
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -ms-flex-align: center;
+      align-items: center;
+      font-weight: 700;
+      transition: .5s ease-in-out;
+      margin-bottom: 10px;
+      &:hover{
+        background: linear-gradient(270deg,#890001,#d60006);
       }
     }
   }
@@ -77,6 +100,7 @@
 #thank {
   position: fixed;
   left: 50%;
+  display: none;
   margin-top: 170px;
   margin-left: -157.5px;
   z-index: 3;
@@ -88,7 +112,7 @@
   background-color: #d75920;
   .block-messages {
     font-size: 18px;
-    font-family: Century Gothic,sans-serif;
+    font-family: 'Exo2', sans-serif;
     font-style: italic;
     display: flex;
     text-align: center;
@@ -102,19 +126,34 @@
   visibility: hidden;
   position: relative;
   margin: 5% auto;
-  font-family: Century Gothic,sans-serif;
+  font-family: 'Exo2', sans-serif;
   background-color: #fff;
   box-sizing: border-box;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   top: -500px;
   .modal-form{
-    margin: 0px 15px;
-    .modal-text{
-      font-size: 24px;
-      font-weight: 700;
+    .modal-text1{
+      font-size: 30px;
+      color: #d7040a;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #d7040a;
+      margin-left: 40px;
+    }
+    .modal-text2 {
+      font-size: 22px;
       color: black;
-      margin-bottom: 20px;
+      width: 436px;
+      @media all and(max-width: 566px) {
+        width: 80%;
+      }
+      margin-bottom: 10px;
+      margin-left: 40px;
+    }
+    .modal-text3 {
+      font-size: 16px;
+      margin-bottom: 10px;
+      margin-left: 40px;
     }
   }
 }

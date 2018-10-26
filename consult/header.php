@@ -13,16 +13,26 @@
 
 
 </head>
+<div id="p_prldr"><div class="contpre"><span class="svg_anm"></span><br>Подождите<br><small>идет загрузка</small></div></div>
 <div class="page">
     <div class="modal-wrapper">
         <div id="popup__form" class="modal-block">
             <form id="sendform" class="modal-form" name="mainForm">
-                <div class="modal-text">Получите бесплатный ответ на Ваш вопрос по телефону</div>
+                <div class="modal-text1">Заказать звонок</div>
+                <div class="modal-text2">Введите, пожалуйста, свои данные ниже,
+                    чтобы запросить обратный звонок, и мы
+                    свяжемся с Вами в ближайшее время</div>
+                <div class="modal-text3">Поля со звездочкой * обязательны для заполнения.</div>
+                <div class="wrapper-form">
                 <input type="hidden" name="title" value="">
                 <input type="hidden" name="model" value="">
-                <input name="name" type="text" required placeholder="Ваше имя">
-                <input name="phone" type="text" required placeholder="Ваш телефон">
-                <button class="submit" type="submit">Отправить</button>
+                <input name="name" type="text" required placeholder="Ваше имя*">
+                <input name="phone" type="text" required placeholder="Ваш номер телефона*">
+                <input name="email" type="text" required placeholder="Электронная почта">
+                <textarea class="texta" name="texta" placeholder="Ваше сообщение"></textarea>
+                <button class="submit" type="submit">Заказать звонок</button>
+                    <div class="modal-text4">Нажимая кнопку «Заказать звонок», Вы подтверждаете, что согласны    с <a href="#">политикой конфиденциальности</a> сайта.</div>
+                </div>
             </form>
         </div>
         <div id="thank" class="modal-block">
