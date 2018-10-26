@@ -75,7 +75,7 @@
 
                             </div>
 
-                            <div class="callback"><img src="/inc/img/header-phone.png"></div>
+                            <div class="callback"><!--img src="/inc/img/header-phone.png"--></div>
 
 
                         </div>

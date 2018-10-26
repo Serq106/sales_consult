@@ -65,8 +65,6 @@
       border: 25px solid #ffd17b;
       transition: 1s linear;
       color: black;
-      -o-border-image: url('#{$inludePath}img/border_delivery.png') 30 round round;
-      border-image: url('#{$inludePath}img/border_zakaz.png') 30 round round;
       @include transition();
       &:hover {
         cursor: pointer;
