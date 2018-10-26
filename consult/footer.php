@@ -1,6 +1,3 @@
-</div><!-- #main --><!---->
-
-<!-- footer -->
 <footer class="footer" id="contacts">
     <div class="container-wrapper">
         <div class="wrapper">
