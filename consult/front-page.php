@@ -3,14 +3,14 @@
         <div class="container-wrapper">
             <div class="main-menu">
                 <ul>
-                    <li><a href="#">Мы предлагаем Вам</a></li>
-                    <li><a href="#">О нас в цифрах</a></li>
-                    <li><a href="#">Хотите знать больше о продажах?</a></li>
-                    <li><a href="#">С нами уже работают</a></li>
+                    <li><a href="#z1">Мы предлагаем Вам</a></li>
+                    <li><a href="#counts">О нас в цифрах</a></li>
+                    <li><a href="#paper">Хотите знать больше о продажах?</a></li>
+                    <li><a href="#work-with-us">С нами уже работают</a></li>
                 </ul>
             </div>
             <div class="content-wrapper">
-                <div class="content">
+                <div class="content" id="z1">
                     <div class="title">
                         Мы предлагаем вам
                     </div>
@@ -156,7 +156,7 @@
                     Хотите знать больше о продажах?
                 </div>
                 <div class="next">
-                    <a href="#">Читать все статьи</a>
+                    <a href="#">Читать все статьи <div class="arow">→</div></a>
                 </div>
             </div>
             <div class="content">
@@ -170,9 +170,9 @@
                         переменная часть зарплаты...
                     </div>
                     <div class="item-text4"><a href="">Другие статьи</a></div>
-                    <div class="item-text5"><a href="">KPI эффективного менеджера</a></div>
-                    <div class="item-text5"><a href="">Внедрение KPI менеджера</a></div>
-                    <div class="item-text5"><a href="">Привлечение клиентов: кейс (салон красоты)</a></div>
+                    <div class="item-text5"><a href="">KPI эффективного менеджера<div class="arow">→</div></a></div>
+                    <div class="item-text5"><a href="">Внедрение KPI менеджера<div class="arow">→</div></a></div>
+                    <div class="item-text5"><a href="">Привлечение клиентов: кейс (салон красоты)<div class="arow">→</div></a></div>
                 </div>
                 <div class="content-img">
                     <img src="inc/img/izo.jpg">
@@ -192,16 +192,16 @@
                     </p>
                 </div>
                 <div id="carousel">
-                    <div class="carousel-element"><img src="inc/img/slide1.jpg"></div>
-                    <div class="carousel-element"><img src="inc/img/slide1.jpg"></div>
-                    <div class="carousel-element"><img src="inc/img/slide1.jpg"></div>
-                    <div class="carousel-element"><img src="inc/img/slide1.jpg"></div>
-                    <div class="carousel-element"><img src="inc/img/slide1.jpg"></div>
-                    <div class="carousel-element"><img src="inc/img/slide1.jpg"></div>
-                    <div class="carousel-element"><img src="inc/img/slide1.jpg"></div>
-                    <div class="carousel-element"><img src="inc/img/slide1.jpg"></div>
-                    <div class="carousel-element"><img src="inc/img/slide1.jpg"></div>
-                    <div class="carousel-element"><img src="inc/img/slide1.jpg"></div>
+                    <div class="carousel-element"><div class="blok"></div></div>
+                    <div class="carousel-element"><div class="blok"></div></div>
+                    <div class="carousel-element"><div class="blok"></div></div>
+                    <div class="carousel-element"><div class="blok"></div></div>
+                    <div class="carousel-element"><div class="blok"></div></div>
+                    <div class="carousel-element"><div class="blok"></div></div>
+                    <div class="carousel-element"><div class="blok"></div></div>
+                    <div class="carousel-element"><div class="blok"></div></div>
+                    <div class="carousel-element"><div class="blok"></div></div>
+                    <div class="carousel-element"><div class="blok"></div></div>
                 </div>
 
                 <div class="sale">Поднимем и ваши продажи</div>

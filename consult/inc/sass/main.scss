@@ -35,11 +35,22 @@ html{
           justify-content: center;
         }
         li{
+          cursor: pointer;
           border-bottom: 2px solid #cccccc;
           padding: 35px 35px 35px 0px;
+          -webkit-transition: .5s ease-in-out;
+          -moz-transition: .5s ease-in-out;
+          -o-transition: .5s ease-in-out;
+          transition: .5s ease-in-out;
           a{
             color: #999999;
             font-size: 14px;
+          }
+          &:hover{
+            border-bottom: 2px solid #2382bd;
+            a {
+              color: #2382bd;
+            }
           }
         }
       }
@@ -90,6 +101,11 @@ html{
             height: 320px;
             border: 1px solid #0076bf;
             background: #ffffff;
+            cursor: pointer;
+            -webkit-transition: .5s ease-in-out;
+            -moz-transition: .5s ease-in-out;
+            -o-transition: .5s ease-in-out;
+            transition: .5s ease-in-out;
             .wrapper-advantage {
               width: 240px;
               margin: 0 auto;
@@ -109,7 +125,7 @@ html{
               }
               .img-plus{
                 width: 14px;
-                height: 4px;
+                height: 14px;
                 background: url(/inc/img/minus.png) 50% no-repeat;
               }
             }
@@ -117,7 +133,6 @@ html{
               background: #0076bf;
               color: #ffffff;
               .img-plus{
-                height: 14px;
                 background: url(/inc/img/plus.png) 50% no-repeat;
               }
             }
@@ -175,6 +190,10 @@ html{
           height: 300px;
           background: #ffffff;
           margin: 0 auto;
+          -webkit-transition: .5s ease-in-out;
+          -moz-transition: .5s ease-in-out;
+          -o-transition: .5s ease-in-out;
+          transition: .5s ease-in-out;
           @media all and(max-width: 1179px) {
             margin-bottom: 30px;
           }
@@ -209,6 +228,10 @@ html{
               color: #0076bf;
             }
           }
+          &:hover{
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+          }
         }
       }
     }
@@ -237,10 +260,20 @@ html{
         display: flex;
         width: 50%;
         justify-content: flex-end;
+        .arow{
+          font-size: 20px;
+        }
         a{
           color: #d60006;
           display: flex;
           align-items: center;
+          -webkit-transition: .5s ease-in-out;
+          -moz-transition: .5s ease-in-out;
+          -o-transition: .5s ease-in-out;
+          transition: .5s ease-in-out;
+          &:hover{
+            color: #2382bd;
+          }
         }
       }
     }
@@ -277,12 +310,40 @@ html{
           padding-bottom: 8px;
           border-bottom: 2px solid #3391cc;
           font-weight: 600;
+          -webkit-transition: .5s ease-in-out;
+          -moz-transition: .5s ease-in-out;
+          -o-transition: .5s ease-in-out;
+          transition: .5s ease-in-out;
+          a{
+            -webkit-transition: .5s ease-in-out;
+            -moz-transition: .5s ease-in-out;
+            -o-transition: .5s ease-in-out;
+            transition: .5s ease-in-out;
+          }
+          &:hover{
+            a{
+              color: #d60006;
+            }
+            border-bottom: 2px solid #d60006;
+          }
         }
         .item-text5{
           margin-top: 30px;
           a{
             color: #0076bf;
             font-size: 18px;
+            display: flex;
+            -webkit-transition: .5s ease-in-out;
+            -moz-transition: .5s ease-in-out;
+            -o-transition: .5s ease-in-out;
+            transition: .5s ease-in-out;
+            .arow{
+              font-size: 20px;
+              margin-left: 10px;
+            }
+            &:hover{
+              color: #d60006;
+            }
           }
         }
       }
@@ -328,12 +389,26 @@ html{
       overflow: hidden;
     }
     .owl-item {
-      margin: 0px 5px;
+      img{
+        width: 90%;
+      }
     }
     /* 1 квадратик карусели */
     .carousel-element {
       text-align: center;
       font-size: 300%;
+    }
+
+    .blok{
+      width: 90%;
+      height: 150px;
+      background: url(/inc/img/slide1.jpg) 50% no-repeat;
+      background-position: 50%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      &:hover{
+        background: url(/inc/img/slide1-hov.jpg) 50% no-repeat;
+      }
     }
     #carousel{
       margin-bottom: 70px;
@@ -353,6 +428,9 @@ html{
       cursor: pointer;
       @media all and(max-width: 400px){
         width: 300px;
+      }
+      &:hover{
+        background: linear-gradient(270deg,#890001,#d60006);
       }
     }
   }
@@ -387,12 +465,16 @@ html{
       margin: 0 auto;
       border-radius: 4px;
       cursor: pointer;
+      -webkit-transition: .5s ease-in-out;
+      -moz-transition: .5s ease-in-out;
+      -o-transition: .5s ease-in-out;
+      transition: .5s ease-in-out;
       @media all and (max-width: 500px){
         width: 300px;
         text-align: center;
       }
       &:hover{
-        background: linear-gradient(270deg,#00aceb,#0076bf);
+        background: #0076bf;
       }
     }
   }

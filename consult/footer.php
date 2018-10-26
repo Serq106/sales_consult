@@ -53,7 +53,7 @@
             // Количество блоков на больших экранах
             items: 5,
             // 5 блоков на компьютерах (экран от 1400px до 901px)
-            itemsDesktop : [1400,5],
+            itemsDesktop : [1400,6],
             // 3 блока на маленьких компьютерах (экран от 900px до 601px)
             itemsDesktopSmall : [980,3],
             // 2 элемента на планшетах (экран от 600 до 480 пикселей)
@@ -85,8 +85,75 @@
 
             return false;
         });
+
+        var slid = $("#slid");
+
+        // Запускаем плагин карусели
+        slid.owlCarousel({
+            //singleItem: true, // Показывать только 1 блок на всю ширину
+
+            // Количество отображающихся блоков в зависимости от устройства (ширины экрана)
+            // Количество блоков на больших экранах
+            items: 1,
+            // 5 блоков на компьютерах (экран от 1400px до 901px)
+            itemsDesktop : [1400,1],
+            // 3 блока на маленьких компьютерах (экран от 900px до 601px)
+            itemsDesktopSmall : [980,1],
+            // 2 элемента на планшетах (экран от 600 до 480 пикселей)
+            itemsTablet: [600,1],
+            // Настройки для телефона отключены, в этом случае будут
+            // использованы настройки планшета
+            itemsMobile : false ,
+
+            // Точки под каруселью
+            pagination: true
+        });
+
+        // Назад
+        // При клике на "Назад"
+        $('.js-prev').click(function () {
+
+            // Запускаем перемотку влево
+            slid.trigger('owl.prev');
+
+            return false;
+        });
+
+        // Вперед
+        // При клике на "Вперед"
+        $('.js-next').click(function () {
+
+            // Запускаем перемотку вправо
+            slid.trigger('owl.next');
+
+            return false;
+        });
+    });
+
+
+    $(".menu-item-1")
+        .mouseover(function() {
+            $('.hed-menu-usl').addClass('active');
+        })
+        .mouseout(function(){
+            $('.menu-item-1').css('border-bottom', '2px solid #00adeb')
+    });
+    $('.close').on("click", function () {
+        $('.hed-menu-usl').removeClass('active');
+        $('.menu-item-1').removeAttr('style');
+    })
+
+
+
+</script>
+<script type="text/javascript">
+    $(function(){
+        $("a[href^='#']").click(function(){
+            var _href = $(this).attr("href");
+            $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+            return false;
+        });
     });
 </script>
-
 </body>
 </html>

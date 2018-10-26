@@ -46,6 +46,17 @@
 </div>
 
 <header class="site-header">
+    <div class="hed-menu-usl">
+        <div class="container-wrapper">
+            <ul>
+                <li><a href="#">Аудит отдела продаж</a></li>
+                <li><a href="#">Построение отделов продаж</a> </li>
+                <li><a href="#">Курс для руководителей по построению и управлению отделами продаж</a></li>
+                <li><a href="#">Тренинг сложных b2b продаж</a></li>
+            </ul>
+        </div>
+        <div class="close">×</div>
+    </div>
     <div class="container-wrapper">
         <div class="header-block">
             <div class="log"><img src="/inc/img/logo.png"></div>
@@ -98,30 +109,78 @@
             </a>
             <div class="primary-menu">
                 <ul id="menu" class="menu">
-                    <li id="menu-item-1" class="menu-item-1"><a href="#">Услуги</a></li>
+                    <li id="menu-item-1" class="menu-item-1">
+                        <a href="#">Услуги</a>
+                    </li>
                     <li id="menu-item-2" class="menu-item-2"><a href="#">О нас</a></li>
                     <li id="menu-item-3" class="menu-item-3"><a href="#">Кейсы</a></li>
                     <li id="menu-item-4" class="menu-item-4"><a href="#">Блог</a></li>
                     <li id="menu-item-5" class="menu-item-5"><a href="#">Контакты</a></li>
                 </ul>
             </div>
+
         </div>
     </div>
 </header>
 
 <div class="heder-content">
-    <div class="headet-bac"></div>
-    <div class="container-wrapper">
-        <div class="slide-text">
-            <div class="text-top">
-                Как построить
-                эффективный
-                отдел продаж?
+    <div id="slid">
+        <div class="carousel-element">
+            <div class="headet-bac"></div>
+            <div class="container-wrapper">
+                <div class="slide-text">
+                    <div class="text-top">
+                        Как построить
+                        эффективный
+                        отдел продаж?
+                    </div>
+                    <div class="text-bott">
+                        Мы знаем!
+                    </div>
+                    <input class="slide-input" type="button" value="Хочу узнать">
+                    <div class="item"><a href="#" class="js-prev"><img src="inc/img/prev-w.png"></img></a> 1/3
+                        <a href="#" class="js-next"><img src="inc/img/next-w.png"></img></a></div>
+                </div>
+
             </div>
-            <div class="text-bott">
-                Мы знаем!
+
+        </div>
+        <div class="carousel-element">
+            <div class="headet-bac"></div>
+            <div class="container-wrapper">
+                <div class="slide-text">
+                    <div class="text-top">
+                        Как построить
+                        эффективный
+                        отдел продаж?
+                    </div>
+                    <div class="text-bott">
+                        Мы знаем!
+                    </div>
+                    <input class="slide-input" type="button" value="Хочу узнать">
+                    <div class="item"><a href="#" class="js-prev"><img src="inc/img/prev-w.png"></img></a> 2/3
+                        <a href="#" class="js-next"><img src="inc/img/next-w.png"></img></a></div>
+
+                </div>
             </div>
-            <input class="slide-input" type="button" value="Хочу узнать">
+        </div>
+        <div class="carousel-element">
+            <div class="headet-bac"></div>
+            <div class="container-wrapper">
+                <div class="slide-text">
+                    <div class="text-top">
+                        Как построить
+                        эффективный
+                        отдел продаж?
+                    </div>
+                    <div class="text-bott">
+                        Мы знаем!
+                    </div>
+                    <input class="slide-input" type="button" value="Хочу узнать">
+                    <div class="item"><a href="#" class="js-prev"><img src="inc/img/prev-w.png"></img></a> 3/3
+                        <a href="#" class="js-next"><img src="inc/img/next-w.png"></img></a></div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
